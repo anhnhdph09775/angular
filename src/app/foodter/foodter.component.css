@@ -1,0 +1,58 @@
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+/*end slider*/
+.slider-margin {
+    margin-top: 20px;
+}
+.image img {
+    width: 100%;
+}
+.card {
+    margin-bottom: 20px;    
+}
+footer {
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px 0 10px 0;
+}
+ul.menu_footer li a{
+    list-style: none;
+    display: block;
+}
+.footer {
+    padding-bottom: 20px;       
+}
+.footer h3 {
+    color: rgba(100,255,10,1);
+}
+.copy_right {
+    padding: 10px 0 0px 0;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

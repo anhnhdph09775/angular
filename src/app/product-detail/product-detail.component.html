@@ -1,0 +1,17 @@
+
+<div *ngIf="product" class="detailProduct">
+    <div class="row">
+        <div class="imgDetil col-md-3 col-lg-4 d-md-block  ">
+            <img class="imgDetilbe" src="{{product.img}}" alt="">
+        </div>
+        <div class=" mt-5 col-md-10 ms-sm-auto col-lg-6 px-md-4">
+            <h1>Tên SP: {{product.name}}</h1> 
+            <h2>Giá: {{product.price}}</h2>
+            <p>Trạng thái: {{product.status}}</p>
+            
+            <button class="btn btn-primary btn-sm"> Thêm sản phẩm</button>
+            <button class="mx-3 btn btn-primary btn-sm">+ Thêm vào giỏ hàng</button>
+            <h5 class="mt-3"> Mô tả: </h5>
+        </div>
+    </div>
+</div>
